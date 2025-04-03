@@ -1,0 +1,23 @@
+/* Quote Section */
+.poker-quote {
+    padding: 100px 0;
+    background-color: var(--secondary);
+    color: var(--white);
+}
+
+.quote-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quote-content h2 {
+    font-size: 2rem;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.quote-attribution {
+    font-style: italic;
+    color: var(--primary);
+} 
