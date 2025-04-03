@@ -78,4 +78,77 @@
 .membership-cta {
     display: block;
     width: 100%;
+}
+
+/* Mobile styles for membership */
+@media (max-width: 1024px) {
+    .membership-options {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .membership-card:last-child {
+        grid-column: span 2;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .membership {
+        padding: 60px 0;
+    }
+    
+    .membership-options {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-top: 40px;
+    }
+    
+    .membership-card {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    .membership-card:last-child {
+        grid-column: span 1;
+    }
+    
+    .membership-header {
+        padding: 20px;
+    }
+    
+    .membership-header h3 {
+        font-size: 1.5rem;
+    }
+    
+    .membership-price {
+        font-size: 2rem;
+    }
+    
+    .membership-content {
+        padding: 20px;
+    }
+    
+    .membership-features li {
+        font-size: 0.95rem;
+        padding: 8px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .membership-header h3 {
+        font-size: 1.3rem;
+    }
+    
+    .membership-price {
+        font-size: 1.8rem;
+    }
+    
+    .membership-features {
+        padding-left: 0;
+    }
+    
+    .membership-features li {
+        font-size: 0.9rem;
+    }
 } 

@@ -166,6 +166,31 @@
 }
 
 @media (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+    
+    .section-header {
+        margin-bottom: 40px;
+    }
+    
+    .section-header h2 {
+        font-size: 1.8rem;
+    }
+    
+    .section-header p {
+        font-size: 1rem;
+    }
+    
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+    
+    .features, .how-it-works, .testimonials, .membership, .cta, .free-session, .eq-vs-iq, .poker-quote {
+        padding: 50px 0;
+    }
+    
     .header-content {
         flex-direction: column;
         gap: 20px;
@@ -226,14 +251,6 @@
         gap: 30px;
     }
     
-    .section-header h2 {
-        font-size: 1.8rem;
-    }
-    
-    .section-header p {
-        font-size: 1rem;
-    }
-    
     .btn {
         padding: 10px 20px;
         font-size: 0.9rem;
@@ -241,8 +258,24 @@
 }
 
 @media (max-width: 480px) {
-    .container {
-        padding: 0 15px;
+    body {
+        font-size: 14px;
+    }
+    
+    .section-header {
+        margin-bottom: 30px;
+    }
+    
+    .section-header h2 {
+        font-size: 1.6rem;
+    }
+    
+    .section-header p {
+        font-size: 0.9rem;
+    }
+    
+    .features, .how-it-works, .testimonials, .membership, .cta, .free-session, .eq-vs-iq, .poker-quote {
+        padding: 40px 0;
     }
     
     .hero {
