@@ -32,14 +32,34 @@ footer {
     gap: 15px;
 }
 
-.footer-social a {
+.footer-social .social-icon {
     color: var(--white);
     font-size: 1.5rem;
     transition: color 0.3s;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-social a:hover {
+.footer-social .social-icon:hover {
     color: var(--primary);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer-social .instagram:hover {
+    color: #E1306C;
+}
+
+.footer-social .twitter:hover {
+    color: #1DA1F2;
+}
+
+.footer-social .telegram:hover {
+    color: #0088cc;
 }
 
 .footer-heading {
