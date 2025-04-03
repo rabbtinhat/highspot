@@ -1,0 +1,36 @@
+/* Mobile signup styles */
+@media (max-width: 768px) {
+    .signup-container {
+        max-width: 90%;
+    }
+    
+    .signup-header h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .signup {
+        padding: 120px 0 60px;
+    }
+    
+    .signup-header {
+        padding: 30px 20px;
+    }
+    
+    .signup-header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .signup-form {
+        padding: 30px 20px;
+    }
+    
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="tel"],
+    .form-group select,
+    .form-group textarea {
+        padding: 10px;
+    }
+} 

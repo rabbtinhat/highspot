@@ -154,25 +154,54 @@
     padding: 5px;
 }
 
-/* Responsive adjustments for mobile devices */
+/* Enhanced Responsive adjustments for mobile devices */
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 30px;
+    }
+    
+    .section-header h2 {
+        font-size: 2.2rem;
+    }
+}
+
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column;
         gap: 20px;
+        padding: 20px 0;
     }
     
     nav ul {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 10px;
+        gap: 15px;
     }
     
     nav ul li {
-        margin-left: 15px;
+        margin-left: 0;
     }
     
     .hero-content {
         flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero-text {
+        order: 2;
+    }
+    
+    .hero-image {
+        order: 1;
+        margin-bottom: 30px;
+    }
+    
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero-buttons {
+        justify-content: center;
     }
     
     .features-grid {
@@ -181,7 +210,7 @@
     
     .steps {
         flex-direction: column;
-        gap: 30px;
+        gap: 40px;
     }
     
     .steps::before {
@@ -194,5 +223,92 @@
     
     .footer-content {
         grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .section-header h2 {
+        font-size: 1.8rem;
+    }
+    
+    .section-header p {
+        font-size: 1rem;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .hero {
+        padding: 120px 0 60px;
+    }
+    
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .hero-buttons .btn {
+        width: 100%;
+    }
+    
+    .feature-card {
+        padding: 20px;
+    }
+    
+    .feature-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+    
+    .feature-title {
+        font-size: 1.2rem;
+    }
+    
+    .testimonial {
+        padding: 20px;
+    }
+    
+    .testimonial-content {
+        font-size: 1rem;
+    }
+    
+    .cta h2 {
+        font-size: 1.8rem;
+    }
+    
+    .cta p {
+        font-size: 1rem;
+    }
+    
+    .session-content {
+        padding: 30px 20px;
+    }
+    
+    .free-session h2 {
+        font-size: 1.8rem;
+    }
+    
+    .poll-question h2 {
+        font-size: 1.5rem;
+    }
+    
+    .quote-content h2 {
+        font-size: 1.5rem;
     }
 } 

@@ -92,4 +92,40 @@ footer {
     text-align: center;
     color: var(--gray-200);
     font-size: 0.9rem;
+}
+
+/* Mobile footer styles */
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    
+    .footer-description {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 40px 0 20px;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .footer-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .footer-social {
+        justify-content: center;
+    }
+    
+    .footer-links {
+        padding: 0;
+    }
 } 

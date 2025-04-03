@@ -29,4 +29,32 @@ header {
     margin-right: 10px;
     width: 40px;
     height: 40px;
+}
+
+/* Mobile menu styles */
+@media (max-width: 768px) {
+    .header-content {
+        flex-wrap: wrap;
+    }
+    
+    .logo {
+        font-size: 1.2rem;
+    }
+    
+    .highspot-logo .mountain-icon {
+        width: 30px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-content {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .header-content .btn {
+        width: 100%;
+        margin-top: 10px;
+    }
 } 

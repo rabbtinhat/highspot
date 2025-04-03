@@ -42,4 +42,51 @@
 .hero-buttons {
     display: flex;
     gap: 15px;
+}
+
+/* Mobile hero styles */
+@media (max-width: 768px) {
+    .hero {
+        padding: 120px 0 60px;
+    }
+    
+    .hero-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .hero h1 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    
+    .hero p {
+        font-size: 1.1rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .hero-buttons {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .hero-buttons .btn {
+        width: 100%;
+    }
 } 
