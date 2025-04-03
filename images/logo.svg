@@ -1,0 +1,10 @@
+<svg width="40" height="30" viewBox="0 0 40 30" xmlns="http://www.w3.org/2000/svg">
+  <g class="mountain-icon">
+    <path class="mountain" d="M0 30 L12 9 L28 21 L40 6 L40 30 Z" fill="#253F7A"/>
+    <path class="snow" d="M12 30 L20 9 L28 30 Z" fill="#A9C1E8"/>
+    <g class="flag">
+      <rect class="flag-pole" x="19" y="0" width="2" height="10" fill="#FFFFFF"/>
+      <rect class="flag-part" x="21" y="1" width="6" height="4" fill="#FF3B30"/>
+    </g>
+  </g>
+</svg> 

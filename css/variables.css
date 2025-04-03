@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --primary: #00C9A7;
+    --primary-dark: #00B090;
+    --primary-light: #5DEFE0;
+    --secondary: #2A2A2A;
+    --secondary-dark: #1A1A1A;
+    --accent: #FF3B30;
+    --text-dark: #2A2A2A;
+    --text-light: #6C757D;
+    --light: #F2F2F2;
+    --white: #FFFFFF;
+    --success: #22c55e;
+    --warning: #eab308;
+    --gray-100: #f3f4f6;
+    --gray-200: #e5e7eb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+    background-color: var(--white);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--primary-dark);
+} 
