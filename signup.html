@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join HIGHSPOT POKER - Sign Up</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components/header.css">
+    <link rel="stylesheet" href="css/components/navigation.css">
+    <link rel="stylesheet" href="css/components/footer.css">
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <!-- Include header component -->
+    <div id="header-container"></div>
+
+    <section class="signup">
+        <div class="container">
+            <div class="signup-container">
+                <div class="signup-header">
+                    <h1>Join HIGHSPOT POKER</h1>
+                    <p>Fill out the form below to start your poker journey</p>
+                </div>
+                
+                <form id="signup-form" class="signup-form">
+                    <input type="hidden" id="plan" name="plan" value="">
+                    
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number (optional)</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="experience">Poker Experience Level</label>
+                        <select id="experience" name="experience" required>
+                            <option value="">Select your experience level</option>
+                            <option value="beginner">Beginner (0-1 years)</option>
+                            <option value="intermediate">Intermediate (1-3 years)</option>
+                            <option value="advanced">Advanced (3-5 years)</option>
+                            <option value="expert">Expert (5+ years)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="goals">Your Poker Goals</label>
+                        <textarea id="goals" name="goals" rows="4" placeholder="What do you hope to achieve with our coaching?"></textarea>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to the Terms and Conditions</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-accent submit-btn">Submit Application</button>
+                    </div>
+                    
+                    <div id="form-message" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Include footer component -->
+    <div id="footer-container"></div>
+
+    <script src="js/main.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+</html> 
